@@ -1,0 +1,17 @@
+body {
+    font-family: Kanit;
+    margin: 0;
+}
+
+.todo-text {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.poisk-stroka {
+    display: flex;
+
+}
+
+git add .
+git commit -m "create"
