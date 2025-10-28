@@ -3,15 +3,78 @@ body {
     margin: 0;
 }
 
+.osnovnoy-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    width: 100%;
+    row-gap: 20px;
+}
+
 .todo-text {
     font-weight: 500;
     font-size: 26px;
 }
 
-.poisk-stroka {
+.block-for-poiskovaya-stroka {
     display: flex;
-
+    width: 750px;
+    justify-content: space-between;
 }
 
-git add .
-git commit -m "create"
+.poiskovaya-stroka {
+    width: 595px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #6C63FF;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.spisok-all {
+    width: 85px;
+    height: 42px;
+    background-color: #6C63FF;
+    border-radius: 5px;
+    border: 1px solid #6C63FF;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.button-night-or-light {
+    width: 42px;
+    height: 42px;
+    background-color: #6C63FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6C63FF;
+    border-radius: 5px;
+}
+
+
+
+.line {
+    width: 520px;
+    height: 1px;
+    background-color: #6C63FF;
+}
+
+.galochka {
+    width: 26px;
+    height: 26px;
+    background-color: #6C63FF;
+    border: 1px solid #6C63FF;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    column-gap: 20px;
+}
